@@ -2,3 +2,10 @@
 This repository is a part of Eklavya Mentorship programme by SRA Vjti and contains all the information to build a pipelined CPU Core
 ## Table of Contents
 * What is RISC-V ISA?
+
+
+
+##Contributors:
+* Premraj Jadhav
+* Siddhesh Patil
+* Siddharth Sankhe
