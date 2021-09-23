@@ -5,7 +5,7 @@ This repository is a part of Eklavya Mentorship programme by SRA Vjti and contai
 
 
 
-## Contributors:
+## Contributors
 * Premraj Jadhav
 * Siddhesh Patil
 * Siddharth Sankhe
