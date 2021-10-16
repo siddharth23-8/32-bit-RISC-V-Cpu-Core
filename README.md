@@ -16,15 +16,17 @@ applications from IOTs to Embedded systems such as disks, CPUs, Calculators, SOC
 
 ![](https://github.com/siddharth23-8/RISC-V/blob/Main/CPU_SNAP.png)
 
-To build our CPU Core, we need to assemble 6 components mainly:
-● PC logic
-● Register File
-● IMem
-● DMem
-● ALU
-● Decode Logic
+**To build our CPU Core, we need to assemble 6 components mainly:**
+* PC Logic
+* Imem
+* Dmem
+* Register File
+* ALU
+* Decode Logic
 
 ## Contributors
 * Premraj Jadhav
 * Siddhesh Patil
 * Siddharth Sankhe
+## Acknowlegdements and Resources
+* SRA VJTI EKlavya 2021
