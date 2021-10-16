@@ -14,7 +14,7 @@ without paying royalties and allow developers and researchers to design and expe
 proven and freely available instruction set architecture. RISC-V is ideal for a variety of
 applications from IOTs to Embedded systems such as disks, CPUs, Calculators, SOCs, etc.
 
-![alt text](https://github.com/[siddharth23-8]/[RISC-V]/blob/[Main/FINAL CPU SNAP.jpg?raw=true)
+![alt text](https://github.com/[siddharth23-8]/[RISC-V]/blob/[Main/CPU_SNAP.jpg?raw=true)
 
 ## Contributors
 * Premraj Jadhav
