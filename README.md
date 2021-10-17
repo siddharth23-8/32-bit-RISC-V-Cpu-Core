@@ -32,5 +32,6 @@ applications from IOTs to Embedded systems such as disks, CPUs, Calculators, SOC
 * Siddharth Sankhe
 ## Mentor
 * Ninad Jangle
+* Gautam Agrawal
 ## Acknowlegdements and Resources
 * SRA VJTI EKlavya 2021
