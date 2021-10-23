@@ -3,6 +3,7 @@
 ## Table of contents:
 - [Aim](#aim)
 - [About the project](#about)
+- [Flowchart](#Flowchart)
 - [Tech stack](#software)
 - [Getting Started](#Geting-started)
 - [Usage](#Usage)
@@ -26,6 +27,10 @@ RISC-V(Reduced Instruction Set Architecture) is an open standard instruction set
 This project focuses on making a RISC-V CPU Core using logisim software.
 
 RISC-V is significant because it will allow smaller device manufacturers to build hardware without paying royalties and allow developers and researchers to design and experiment with a proven and freely available instruction set architecture. RISC-V is ideal for a variety of applications from IOTs to Embedded systems such as disks, CPUs, Calculators, SOCs, etc.
+
+<a name="Flowchart"></a>
+## Flowchart:
+![Flowchart](https://user-images.githubusercontent.com/84727176/138566664-0be35c0d-dea9-4b08-9c56-e8ab2842f929.jpeg)
 
 <a name="software"></a>
 ## Tech stack:
@@ -57,7 +62,7 @@ RISC-V is significant because it will allow smaller device manufacturers to buil
 ## Screen shot and demo:
 ![Fibonacci_2971215073](https://user-images.githubusercontent.com/84727176/138549836-16440568-0fe9-4e85-acb3-da9d5ab02195.jpg)
 
-### 32 bit computer running fibonacci series code:
+### 32 bit processor running fibonacci series code:
 ![fibonacci](https://user-images.githubusercontent.com/84727176/138549853-234674b6-7d01-40c1-9a1c-c79e18afa5b9.gif)
 
 
