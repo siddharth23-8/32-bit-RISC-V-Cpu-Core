@@ -12,8 +12,7 @@
 
 <a name="aim"></a>
 ## Aim:
-
-![Main](https://user-images.githubusercontent.com/84727176/137883270-f2d435e5-6c04-4a05-a756-638b3ef9071f.png)
+![Main](https://user-images.githubusercontent.com/84727176/138549829-0a1ef365-6fe0-4a3b-8472-10c10c33a75e.png)
 
 To build a 32-bit RISC V processor core in logisim.
 
@@ -34,7 +33,12 @@ RISC-V is significant because it will allow smaller device manufacturers to buil
 - [Python 3](https://www.python.org/)
 
 <a name="ss"></a>
-## Screen shots:
+## Screen shot and demo:
+![Fibonacci_2971215073](https://user-images.githubusercontent.com/84727176/138549836-16440568-0fe9-4e85-acb3-da9d5ab02195.jpg)
+
+### 32 bit computer running fibonacci series code:
+![fibonacci](https://user-images.githubusercontent.com/84727176/138549853-234674b6-7d01-40c1-9a1c-c79e18afa5b9.gif)
+
 
 <a name="future-work"></a>
 ## Future work:
