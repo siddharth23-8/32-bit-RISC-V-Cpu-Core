@@ -3,9 +3,13 @@
 ## Table of contents:
 - [Aim](#aim)
 - [About the project](#about)
+- [Flowchart](#Flowchart)
 - [Tech stack](#software)
-- [Screen shots](#ss)
+- [Getting Started](#Geting-started)
+- [Usage](#Usage)
+- [Screen shot and demo](#ss)
 - [Future work](#future-work)
+- [Troubleshooting](#Troubleshoot)
 - [Contributors](#contributors)
 - [Mentors](#mentors)
 - [Acknowlegdements and Resources](#resources)
@@ -24,6 +28,10 @@ This project focuses on making a RISC-V CPU Core using logisim software.
 
 RISC-V is significant because it will allow smaller device manufacturers to build hardware without paying royalties and allow developers and researchers to design and experiment with a proven and freely available instruction set architecture. RISC-V is ideal for a variety of applications from IOTs to Embedded systems such as disks, CPUs, Calculators, SOCs, etc.
 
+<a name="Flowchart"></a>
+## Flowchart:
+![Flowchart](https://user-images.githubusercontent.com/84727176/138566664-0be35c0d-dea9-4b08-9c56-e8ab2842f929.jpeg)
+
 <a name="software"></a>
 ## Tech stack:
 - [Logisim](http://www.cburch.com/logisim/)
@@ -32,11 +40,29 @@ RISC-V is significant because it will allow smaller device manufacturers to buil
 - [Github](https://github.com/)
 - [Python 3](https://www.python.org/)
 
+<a name="Geting-started"></a>
+## Getting Started
+- Download Logisim software from the link given above.
+- Download logisim circuit [files](https://github.com/siddharth23-8/RISC-V/blob/Main/Main/Final.circ).
+- Download text file of [program](https://github.com/siddharth23-8/RISC-V/blob/Main/IMem/Fibo.txt) and initial data.
+
+<a name="Usage"></a>
+## Usage
+### To run Fibonacci series:
+- Open [final.circ](https://github.com/siddharth23-8/RISC-V/blob/Main/Main/Final.circ) in logisim
+- In main circuit, right click on IMEM chip and select 'View IMEM' from drop down
+- In IMEM circuit, right click on RAM module and load '[Fibo.txt](https://github.com/siddharth23-8/RISC-V/blob/Main/IMem/Fibo.txt)' from IMem folder
+- Back to main circuit, in the top right corner, click on load pin to activate processor
+- Turn on the clock from either the Simulate menu or using ctrl+k
+- To halt the program press ctrl+k
+- To reset the processor, press reset button
+- After reset, the processor is ready to load nest pogram
+
 <a name="ss"></a>
 ## Screen shot and demo:
 ![Fibonacci_2971215073](https://user-images.githubusercontent.com/84727176/138549836-16440568-0fe9-4e85-acb3-da9d5ab02195.jpg)
 
-### 32 bit computer running fibonacci series code:
+### 32 bit processor running fibonacci series code:
 ![fibonacci](https://user-images.githubusercontent.com/84727176/138549853-234674b6-7d01-40c1-9a1c-c79e18afa5b9.gif)
 
 
@@ -45,17 +71,26 @@ RISC-V is significant because it will allow smaller device manufacturers to buil
 - Add more instrcutions and functionality
 - Create verilog model
 
+<a name="Troubleshoot"></a>
+## Troubleshooting
+- Problem in Logisim installation
+  - Check if your system has java installed
+- Circuit showing-
+  - Red wires: Reset the simulation from Simulate menu/ Check if all connections are correct (You can refer to images of circuits from indevidual folder)
+  - Blue wire: Reset the simulation from Simulate menu/ make sure simulation is enabled
+  - Gray wire: Check if all connections are correct (You can refer to images of circuits from indevidual folder)
+
 <a name="contributors"></a>
 ## Contributors:
--    Premraj Jadhav
--   Siddhesh Patil
--   Siddharth Sankhe
+-   [Premraj Jadhav](https://github.com/Premraj02)
+-   [Siddhesh Patil](https://github.com/Sidshx)
+-   [Siddharth Sankhe](https://github.com/siddharth23-8)
 
 <a name="mentors"></a>
 ## Mentors:
--   Ninad Jangle
--   Gautam Agrawal
+-   [Ninad Jangle](https://github.com/ninja3011)
+-   [Gautam Agrawal](https://github.com/gautam-dev-maker)
 
 <a name="resources"></a>
 ## Acknowlegdements and Resources:
--   SRA VJTI Eklavya 2020
+-   [SRA VJTI Eklavya 2020](http://sra.vjti.info/)
