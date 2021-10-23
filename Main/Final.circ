@@ -6641,12 +6641,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <appear>
       <rect fill="#ff97b5" height="82" rx="10" ry="10" stroke="#000000" width="810" x="50" y="200"/>
       <text font-family="SansSerif" font-size="28" text-anchor="middle" x="455" y="251">OUTPUT</text>
-      <circ-port height="10" pin="1360,90" width="10" x="85" y="195"/>
+      <circ-port height="10" pin="1360,90" width="10" x="55" y="195"/>
       <circ-port height="10" pin="1370,70" width="10" x="65" y="195"/>
-      <circ-port height="10" pin="1380,90" width="10" x="115" y="195"/>
-      <circ-port height="10" pin="1390,70" width="10" x="55" y="195"/>
-      <circ-port height="10" pin="1400,90" width="10" x="75" y="195"/>
-      <circ-port height="10" pin="1420,70" width="10" x="95" y="195"/>
+      <circ-port height="10" pin="1380,90" width="10" x="75" y="195"/>
+      <circ-port height="10" pin="1390,70" width="10" x="85" y="195"/>
+      <circ-port height="10" pin="1400,90" width="10" x="95" y="195"/>
+      <circ-port height="10" pin="1420,70" width="10" x="115" y="195"/>
       <circ-port height="10" pin="1430,90" width="10" x="125" y="195"/>
       <circ-port height="10" pin="1460,70" width="10" x="145" y="195"/>
       <circ-port height="10" pin="1480,70" width="10" x="165" y="195"/>
@@ -6901,6 +6901,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1380,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
+      <a name="label" val="5"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(2150,90)" name="Pin">
@@ -6977,11 +6978,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1420,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
+      <a name="label" val="2"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(1360,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
+      <a name="label" val="7"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(1620,100)" name="7 seg encoder"/>
@@ -6989,6 +6992,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1370,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
+      <a name="label" val="6"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(670,380)" name="DDA"/>
@@ -7154,6 +7158,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1430,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
+      <a name="label" val="1"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(1030,340)" name="DDA"/>
@@ -7232,6 +7237,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1400,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
+      <a name="label" val="3"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(1920,90)" name="Pin">
@@ -7449,6 +7455,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1390,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
+      <a name="label" val="4"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(1120,430)" name="DDA"/>
