@@ -92,7 +92,7 @@ For more detailed information follow [Project Report](https://github.com/siddhar
 <a name="contributors"></a>
 ## Contributors:
 -   [Premraj Jadhav](https://github.com/Premraj02)
--   [Siddhesh Patil](https://github.com/Sidshx)
+-   [Siddesh Patil](https://github.com/Sidshx)
 -   [Siddharth Sankhe](https://github.com/siddharth23-8)
 
 <a name="mentors"></a>
