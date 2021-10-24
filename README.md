@@ -28,6 +28,14 @@ This project focuses on making a RISC-V CPU Core using logisim software.
 
 RISC-V is significant because it will allow smaller device manufacturers to build hardware without paying royalties and allow developers and researchers to design and experiment with a proven and freely available instruction set architecture. RISC-V is ideal for a variety of applications from IOTs to Embedded systems such as disks, CPUs, Calculators, SOCs, etc.
 
+<a name="Theory"></a>
+## Theory:
+In a RISC V processor, first the PC (program counter) gives the byte adderess to IMem. IMem (Instruction Memory) is the place where program instructions are stored. IMem gives out the instruction located on address given by PC. This instruction is coded in RISC V ISA. It needs to be decoded in various fields and identified. This job is done by Decode Logic. After the instruction is identified and relevent data is extracted, we access the registers from Register File. Data from respective registers and/or IMM (Imediate value) is sent to ALU to perform computational and logical operations. Result of these operations can modify register values/ can be stored in DMem (Data Memory)/ can be desplayed on 7 segment output display. Control Logic is the chip which monitors all this flow and controls which chip needs to be enabled.
+
+Note: This is the general flow for most of the commands. There are few exceptions like jump instruction where data needs to flow in different manner
+
+For more detailed information follow [Project Report](https://github.com/siddharth23-8/RISC-V/blob/Main/RISCV%20PROJECT.pdf)
+
 <a name="Flowchart"></a>
 ## Flowchart:
 ![Flowchart](https://user-images.githubusercontent.com/84727176/138566664-0be35c0d-dea9-4b08-9c56-e8ab2842f929.jpeg)
