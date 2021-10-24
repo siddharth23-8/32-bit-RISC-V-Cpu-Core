@@ -3,6 +3,7 @@
 ## Table of contents:
 - [Aim](#aim)
 - [About the project](#about)
+- [Theory](#Theory)
 - [Flowchart](#Flowchart)
 - [Tech stack](#software)
 - [Getting Started](#Geting-started)
@@ -30,9 +31,9 @@ RISC-V is significant because it will allow smaller device manufacturers to buil
 
 <a name="Theory"></a>
 ## Theory:
-In a RISC V processor, first the PC (program counter) gives the byte adderess to IMem. IMem (Instruction Memory) is the place where program instructions are stored. IMem gives out the instruction located on address given by PC. This instruction is coded in RISC V ISA. It needs to be decoded in various fields and identified. This job is done by Decode Logic. After the instruction is identified and relevent data is extracted, we access the registers from Register File. Data from respective registers and/or IMM (Imediate value) is sent to ALU to perform computational and logical operations. Result of these operations can modify register values/ can be stored in DMem (Data Memory)/ can be desplayed on 7 segment output display. Control Logic is the chip which monitors all this flow and controls which chip needs to be enabled.
+In a RISC V processor, first the **PC** (program counter) gives the byte adderess to **IMem** . IMem (Instruction Memory) is the place where program instructions are stored. IMem gives out the instruction located on address given by PC. This instruction is coded in RISC V ISA. It needs to be decoded in various fields and identified. This job is done by **Decode Logic** . After the instruction is identified and relevent data is extracted, we access the registers from **Register File**. Data from respective registers and/or IMM (Imediate value) is sent to **ALU** to perform computational and logical operations. Result of these operations can modify register values/ can be stored in **DMem** (Data Memory)/ can be desplayed on **7 segment output display**. **Control Logic** is the chip which monitors all this flow and controls which chip needs to be enabled.
 
-Note: This is the general flow for most of the commands. There are few exceptions like jump instruction where data needs to flow in different manner
+*Note: This is the general flow for most of the commands. There are few exceptions like jump instruction where data needs to flow in different manner*
 
 For more detailed information follow [Project Report](https://github.com/siddharth23-8/RISC-V/blob/Main/RISCV%20PROJECT.pdf)
 
@@ -57,14 +58,14 @@ For more detailed information follow [Project Report](https://github.com/siddhar
 <a name="Usage"></a>
 ## Usage
 ### To run Fibonacci series:
-- Open [final.circ](https://github.com/siddharth23-8/RISC-V/blob/Main/Main/Final.circ) in logisim
-- In main circuit, right click on IMEM chip and select 'View IMEM' from drop down
-- In IMEM circuit, right click on RAM module and load '[Fibo.txt](https://github.com/siddharth23-8/RISC-V/blob/Main/IMem/Fibo.txt)' from IMem folder
-- Back to main circuit, in the top right corner, click on load pin to activate processor
-- Turn on the clock from either the Simulate menu or using ctrl+k
-- To halt the program press ctrl+k
-- To reset the processor, press reset button
-- After reset, the processor is ready to load nest pogram
+1. Open [final.circ](https://github.com/siddharth23-8/RISC-V/blob/Main/Main/Final.circ) in logisim
+2. In main circuit, right click on IMEM chip and select 'View IMEM' from drop down
+3. In IMEM circuit, right click on RAM module and load '[Fibo.txt](https://github.com/siddharth23-8/RISC-V/blob/Main/IMem/Fibo.txt)' from IMem folder
+4. Back to main circuit, in the top right corner, click on load pin to activate processor
+5. Turn on the clock from either the Simulate menu or using ctrl+k
+6. To halt the program press ctrl+k
+7. To reset the processor, press reset button
+8. After reset, the processor is ready to load nest pogram
 
 <a name="ss"></a>
 ## Screen shot and demo:
@@ -76,8 +77,8 @@ For more detailed information follow [Project Report](https://github.com/siddhar
 
 <a name="future-work"></a>
 ## Future work:
-- Add more instrcutions and functionality
-- Create verilog model
+- [ ] Add more instrcutions and functionality
+- [ ] Create verilog model
 
 <a name="Troubleshoot"></a>
 ## Troubleshooting
