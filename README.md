@@ -39,7 +39,8 @@ For more detailed information follow [Project Report](https://github.com/siddhar
 
 <a name="Flowchart"></a>
 ## Flowchart:
-![Flowchart](https://user-images.githubusercontent.com/84727176/138566664-0be35c0d-dea9-4b08-9c56-e8ab2842f929.jpeg)
+
+![RISCV_flow](https://user-images.githubusercontent.com/84727176/143277755-a7fa8fe2-defa-4c31-a2f2-69954cb71684.png)
 
 <a name="software"></a>
 ## Tech stack:
